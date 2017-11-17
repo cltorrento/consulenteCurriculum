@@ -1,0 +1,7 @@
+it/f2informatica/consulenteCurriculum/domain/Consulente.class
+it/f2informatica/consulenteCurriculum/controller/ConsulenteController.class
+it/f2informatica/consulenteCurriculum/controller/AppController.class
+it/f2informatica/consulenteCurriculum/domain/Curriculum.class
+it/f2informatica/consulenteCurriculum/database/DBManager.class
+it/f2informatica/consulenteCurriculum/ConsulenteCurriculumApplication.class
+it/f2informatica/consulenteCurriculum/service/ConsulenteService.class

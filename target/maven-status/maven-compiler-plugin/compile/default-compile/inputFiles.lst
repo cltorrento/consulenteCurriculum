@@ -1,0 +1,7 @@
+/home/tuxito/eclipse-workspace/consulenteCurriculum/src/main/java/it/f2informatica/consulenteCurriculum/controller/AppController.java
+/home/tuxito/eclipse-workspace/consulenteCurriculum/src/main/java/it/f2informatica/consulenteCurriculum/controller/ConsulenteController.java
+/home/tuxito/eclipse-workspace/consulenteCurriculum/src/main/java/it/f2informatica/consulenteCurriculum/domain/Consulente.java
+/home/tuxito/eclipse-workspace/consulenteCurriculum/src/main/java/it/f2informatica/consulenteCurriculum/database/DBManager.java
+/home/tuxito/eclipse-workspace/consulenteCurriculum/src/main/java/it/f2informatica/consulenteCurriculum/service/ConsulenteService.java
+/home/tuxito/eclipse-workspace/consulenteCurriculum/src/main/java/it/f2informatica/consulenteCurriculum/domain/Curriculum.java
+/home/tuxito/eclipse-workspace/consulenteCurriculum/src/main/java/it/f2informatica/consulenteCurriculum/ConsulenteCurriculumApplication.java

@@ -1,0 +1,89 @@
+<div>
+    <div class="modal-header"><br>
+        <h3 class="modal-title">Inserimento di Consulente</h3>
+    </div>
+    <div class="modal-body">
+        <form name"serviceForm">
+            <div class="row">
+                <div class="form-group col-md-12">
+                    <label class="col-md-2 control-lable" for="nome">Nome:</label>
+                    <div class="col-md-7">
+                        <input type="text" ng-model="vm.entity.nome" id="nome" class="form-control input-sm" placeholder="Inserisci il nome."/>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-12">
+                    <label class="col-md-2 control-lable" for="cognome">Cognome:</label>
+                    <div class="col-md-7">
+                        <input type="text" ng-model="vm.entity.cognome" id="cognome" class="form-control input-sm" placeholder="Inserisci il cognome."/>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-12">
+                    <label class="col-md-2 control-lable" for="codiceFiscale">*Codice:</label>
+                    <div class="col-md-7">
+                        <input type="text" ng-model="vm.entity.codiceFiscale" id="codiceFiscale" class="form-control input-sm" required placeholder="Inserisci il codice Fiscale."/>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-12">
+                    <label class="col-md-2 control-lable" for="ral">Ral:</label>
+                    <div class="col-md-7">
+                        <input type="text" ng-model="vm.entity.ral" id="ral" class="form-control input-sm" placeholder="Inserisci il Ral."/>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-12">
+                    <label class="col-md-2 control-lable" for="titolo">Titolo:</label>
+                    <div class="col-md-7">
+                        <input type="text" ng-model="vm.entity.titolo" id="titolo" class="form-control input-sm" placeholder="Inserisci il titolo."/>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-12">
+                    <label class="col-md-2 control-lable" for="anniDiEsperienza">Esperienza:</label>
+                    <div class="col-md-7">
+                        <input type="text" ng-model="vm.entity.anniDiEsperienza" id="anniDiEsperienza" class="form-control input-sm" placeholder="Inserisci Anni."/>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-12">
+                    <label class="col-md-2 control-lable" for="seniority">Seniority:</label>
+                    <div class="col-md-7">
+                        <input type="text" ng-model="vm.entity.seniority" id="seniority" class="form-control input-sm" placeholder="Inserisci seniority."/>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-12">
+                    <label class="col-md-2 control-lable" for="skills">Skills:</label>
+                    <div class="col-md-7">
+                        <input type="text" ng-model="vm.entity.skills" id="skills" class="form-control input-sm" placeholder="Inserisci skills."/>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-12">
+                    <label class="col-md-2 control-lable" for="CV">CV File:</label>
+                    <div class="col-md-7">
+                        <td>
+                            <!--<input type='file' ng-model='vm.entity.cv' base-sixty-four-input id="cv" class="form-control input-sm">-->
+                            <input type="file" ng-model="vm.entity.cv" base-sixty-four-input id="cv" class="form-control input-sm">
+                        </td>
+                    </div>
+                </div>  
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-primary" ng-click="vm.save()">Save</button>
+        <button class="btn btn-primary" ng-click="vm.remove()">Delete</button>
+        <button class="btn btn-primary" ng-click="$close()">Cancel</button>
+    </div>
+</div>
